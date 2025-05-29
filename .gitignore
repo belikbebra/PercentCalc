@@ -1,0 +1,41 @@
+## Игнорируем файлы сборки и бинарные файлы ##
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.suo
+*.user
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+
+## Игнорируем файлы пакетов и кэша NuGet ##
+packages/
+[Nn]u[Gg]et[Cc]ache/
+*.nupkg
+
+## Игнорируем логи и временные файлы ##
+*.log
+*.tmp
+*.TMP
+*.temp
+
+## Игнорируем системные файлы ##
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+*.DS_Store
+
+## Игнорируем настройки IDE (Visual Studio) ##
+.vs/
+.idea/
+*.userprefs
+*.sln.docstates
+
+## Игнорируем резервные копии ##
+*.bak
+*.~*
+*~
